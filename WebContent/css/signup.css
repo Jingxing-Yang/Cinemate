@@ -1,0 +1,64 @@
+body{
+	background-color:#87CEEB;
+}
+
+h1{
+	color:#191970;
+	text-align: center;
+	font-size:75px;
+	margin-top:5px;
+	margin-bottom:10px;
+	text-shadow: 4px 3px #6495ED;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+}
+#top{
+	position:relative;
+	top:10px;
+}
+
+#intro{
+	text-align: center;
+	font-size: 15px;
+	margin-bottom:30px;
+	color:white;
+}
+#main{
+
+	height:450px;
+	margin-top:10px;
+	margin-bottom:5%;
+	width:100%;
+	background-color:#004C99; 
+	text-align:center;
+}
+
+#contentBlock{
+	position:relative;
+	top:20%;
+	height:300px;
+	background-color:#4682B4;
+	margin-left:35%;
+	margin-right:35%;
+	border:none;
+}
+
+#form{
+	position:relative;
+	top:17%;
+}
+
+#inputBox{
+	width:200px;
+	padding:5px;
+	margin:5px;
+}
+
+#signupButton{
+	margin-top:20px;
+	width:200px;
+}
+#error{
+	font-size:15px;
+	color: red;
+	margin-top:3px;
+}

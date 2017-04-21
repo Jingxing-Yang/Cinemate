@@ -1,0 +1,150 @@
+body{
+	background-color:#87CEEB;
+}
+
+
+#top{
+	position:relative;
+	top:10px;
+}
+
+
+#main{
+	position:absolute;
+	top:70px;
+	color:white;
+	height:400px;
+	margin-top:10px;
+	width:100%;
+	background-color:#5588B5; 
+	text-align:center;
+}
+#movie-image-container{
+	position:absolute;
+	top:60px;
+	left:18%;
+	height:250px;
+	width:200px;
+	color:black;
+}
+#movie-image{
+	max-height:250px;
+	max-width:200px;
+}
+
+#watched-container{
+	height:40px;
+	width:40px;
+}
+
+#liked-container{
+	position:relative;
+	left:50px;
+	top:-40px;
+	height:40px;
+	width:40px;
+}
+
+#disliked-container{
+	position:relative;
+	left:100px;
+	top:-70px;
+	height:40px;
+	width:40px;
+}
+#action-container{
+	position:absolute;
+	top:320px;
+	left:19%;
+	color:black;
+}
+
+.action-image{
+	max-height:30px;
+	max-widgth:30px;
+	padding:5px;
+}
+
+#staff-container{
+	position:absolute;
+	top:20px;
+	left:35%;
+	width:60%;
+	text-align:left;
+}
+
+#movie-title{
+	font-size:32px;
+}
+
+
+.staff-info{
+	display:inline;
+	font-size:20px;
+	color:white;
+}
+
+#description{
+	font-size:20px;
+}
+#imdb-rating-container{
+	position:absolute;
+	top:245px;
+	left:35%;
+}
+
+#rating-container{
+	position:absolute;
+	top:275px;
+	left:35%;
+}
+#description-container{
+	position:absolute;
+	top:290px;
+	left:35%;
+	width:60%;
+	text-align:left;
+}
+
+#bottom{
+	position:absolute;
+	top:480px;
+	left:40%;
+}
+
+#cast-title{
+	position:absolute;
+	top:0px;
+	left:40%;
+	font-size:35px;	
+}
+
+#cast-image{
+	position:relative;
+	top:100px;
+	left:-20%;
+	height:200px;
+	width:135px;
+	padding:5px;
+}
+
+#cast-name{
+	display:inline;
+	position:relative;
+	left:40px;
+	font-size:25px;
+}
+
+.moviePage-label{
+	position:relative;
+	text-align:center;
+	font-size:10px;
+	color:black;
+	background-color: white;
+}
+
+.rating-star{
+	height:15px;
+	width:15px;
+	padding:5px;
+}

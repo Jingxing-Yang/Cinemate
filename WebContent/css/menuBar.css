@@ -1,0 +1,111 @@
+#menu-bar{
+	position:absolute;
+	top:0;
+	width:100%;
+	height: 60px;
+	background-color: #004C99;
+}
+
+#feedCell{
+	heihgt:50px;
+	width:50px;
+}
+
+#feed_icon{
+	position:relative;
+	left:0;
+	heihgt:50px;
+	width:50px;
+	padding:5px;
+}
+
+#profileCell{
+	position:absolute;
+	top:0px;
+	left:55px;
+	width:50px;
+	height:50px;
+	padding:5px;
+}
+
+#profile_image{
+	width:50px;
+	height:50px;
+	object-fit: cover;
+	border-radius:50%;
+}
+
+
+
+#searchInput{
+	position:absolute;
+	left:130px;
+	top:15px;
+	height:30px;
+}
+#searchType{
+	display:none;
+}
+
+#searchTypeCell{
+	position:absolute;
+	left:260px;
+	top:18px;
+	height:35px;
+	width:35px;
+}
+
+#searchTypeIcon{
+	height:30px;
+	width:30px
+}
+
+#searchButtonCell{
+	position:absolute;
+	left:290px;
+	top:15px;
+}
+
+#searchButton{
+	border: none;
+	background:transparent;
+}
+
+#buttonImg{
+	heihgt:30px;
+	width:30px;
+}
+
+#barTitle{
+	position:absolute;
+	left: 45%;
+	top:-20px;
+	text-align: center;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-weight:bold;
+	font-size:30px;
+	color:white;
+}
+
+#logoutCell{
+	position:absolute;
+	top:15px;
+	right:70px;
+}
+
+
+
+#exitCell{
+	position:absolute;
+	top:15px;
+	right:10px;
+
+}
+
+.label{
+	position:relative;
+	text-align:center;
+	font-size:10px;
+	background-color: white;
+	z-index: 9999;
+}
